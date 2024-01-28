@@ -8,7 +8,7 @@ istream& operator>>(istream& in, Complex& c)
 
 ostream& operator<<(ostream& out, const Complex& c) 
 {
-	out << c.x << (c.y >= 0 ? "+" : "-") << abs(c.y) << "i";
+	out << c.x << (c.y >= 0 ? " + " : " - ") << abs(c.y) << "i";
 	return out;
 }
 
