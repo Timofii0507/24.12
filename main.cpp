@@ -1,6 +1,5 @@
 #include "complex.h"
 #include <Windows.h>
-#include <cmath>
 
 int main()
 {
